@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  AWS_BUCKET: {{project3-nampxh}}
+  AWS_PROFILE: {{}}
+  AWS_REGION: {{ap-southeast-1}}
+  POSTGRESS_DB: {{postgres}}
+  POSTGRESS_HOST: {{project3-nampxh.cfgpprzkw2um.ap-southeast-1.rds.amazonaws.com}}
+  URL: {{http://localhost:8100}}
+metadata:
+  name: env-config
